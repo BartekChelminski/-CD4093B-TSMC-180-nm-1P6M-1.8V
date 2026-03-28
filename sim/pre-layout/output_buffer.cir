@@ -1,0 +1,48 @@
+output_buffer
+
+.lib tsmc180_t77a_spice.lib
+
+M1 vdd in 1 vdd PFET l=.2u w=.8u
+M2 1 in 0 0 NFET l=.2u w=.4u
+M3 vdd 1 2 vdd PFET l=.2u w=8.4u
+M4 2 1 0 0 NFET l=.2u w=4.2u
+M5 vdd 2 3 vdd PFET l=.2u w=89u
+M6 3 2 0 0 NFET l=.2u w=44.5u
+M7 vdd 3 out vdd PFET l=.2u w=938.7u
+M8 out 3 0 0 NFET l=.2u w=469.4u
+
+.param freq=630MEG
+.param Tperiod=1/{freq}
+.param Ton=0.5*{Tperiod}
+
+Rin in rin 50 ; rezystancja szeregowa zrodla
+Vin rin 0 PULSE(0 {VDD} 0 .1n .1n {Ton} {Tperiod})
+;Vin rin 0 SINE(0.9V 0.9V {freq} 0 0 -90) ; przebieg sinusoidalny
+; do zaobserwowania oraz wykreslenia histerezy
+Vdd vdd 0 {VDD}
+
+Cload out 0 25p ; obciazenie 25pF
+
+.param I=15m
+;.step param I 0 20m .2m ; nalezy odkomentowac dla badania wydajnosci pradowej
+*********************
+*** do badania Io-***
+*********************
+;Iload 0 out {I} ; obciazenie pradowe (bez analizy step domyslnie 15mA)
+*********************
+*** do badania Io+***
+*********************
+;Iload out 0 {I} ; obciazenie pradowe (bez analizy step domyslnie 15mA)
+;Vtest in 0 {VDD} ; WAZNE!!! do testu zakomentowac zrodlo Vin
+
+
+;.step temp list -30 27 125
+.param VDD=1.8
+;.step param VDD list 1.62 1.8 1.98
+
+.tran 0 400n 0 ; do zbadania przebiegu wyjsciowego
+; oraz maksymalnej czestotliwosci
+
+;.op ; liczy punkt(y) pracy, do zbadania obciazalnosci pradowej
+
+.end

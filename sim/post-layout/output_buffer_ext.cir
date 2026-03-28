@@ -1,0 +1,306 @@
+output_buffer po ekstrakcji
+
+.lib tsmc180_t77a_spice.lib
+
+* SPICE3 file created from cd_kopia.ext - technology: scmos
+
+M1000 a_n7_89# a_n9_86# vdd vdd pfet w=8.9u l=0.2u
++  ad=26.7p pd=95u as=318.92p ps=1124.8u
+M1001 out a_n7_89# vss vss nfet w=9.4u l=0.2u
++  ad=141p pd=500u as=162.46p ps=592.4u
+M1002 out a_n7_89# vdd vdd pfet w=18.5u l=0.2u
++  ad=277.5p pd=955u as=0p ps=0u
+M1003 out a_n7_89# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1004 a_n9_86# a_n2_2# vdd vdd pfet w=2.1u l=0.2u
++  ad=2.52p pd=10.8u as=0p ps=0u
+M1005 out a_n7_89# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1006 a_n2_2# in vss vss nfet w=0.4u l=0.2u
++  ad=0.2p pd=1.8u as=0p ps=0u
+M1007 out a_n7_89# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1008 vdd a_n7_89# out vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1009 vss a_n7_89# out vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1010 vss a_n9_86# a_n7_89# vss nfet w=5.5u l=0.2u
++  ad=0p pd=0u as=13.2p ps=48.8u
+M1011 out a_n7_89# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1012 out a_n7_89# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1013 vdd a_n7_89# out vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1014 out a_n7_89# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1015 vdd a_n7_89# out vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1016 out a_n7_89# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1017 vss a_n7_89# out vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1018 vdd a_n7_89# out vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1019 out a_n7_89# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1020 out a_n7_89# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1021 out a_n7_89# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1022 vss a_n7_89# out vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1023 a_n7_89# a_n9_86# vss vss nfet w=5.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1024 vdd a_n9_86# a_n7_89# vdd pfet w=8.9u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1025 out a_n7_89# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1026 a_n7_89# a_n9_86# vdd vdd pfet w=8.9u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1027 vss a_n7_89# out vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1028 vss a_n7_89# out vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1029 out a_n7_89# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1030 a_n9_86# a_n2_2# vdd vdd pfet w=2.1u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1031 vss a_n7_89# out vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1032 out a_n7_89# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1033 out a_n7_89# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1034 a_n7_89# a_n9_86# vss vss nfet w=5.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1035 out a_n7_89# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1036 vss a_n7_89# out vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1037 out a_n7_89# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1038 out a_n7_89# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1039 vdd a_n7_89# out vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1040 out a_n7_89# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1041 vdd a_n7_89# out vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1042 vdd a_n7_89# out vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1043 vdd a_n7_89# out vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1044 vss a_n7_89# out vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1045 vss a_n9_86# a_n7_89# vss nfet w=5.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1046 out a_n7_89# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1047 a_n7_89# a_n9_86# vdd vdd pfet w=8.9u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1048 out a_n7_89# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1049 vdd a_n9_86# a_n7_89# vdd pfet w=8.9u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1050 out a_n7_89# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1051 out a_n7_89# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1052 vdd a_n9_86# a_n7_89# vdd pfet w=8.9u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1053 out a_n7_89# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1054 vss a_n7_89# out vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1055 a_n2_2# in vdd vdd pfet w=0.8u l=0.2u
++  ad=0.4p pd=2.6u as=0p ps=0u
+M1056 vdd a_n2_2# a_n9_86# vdd pfet w=2.1u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1057 vdd a_n7_89# out vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1058 out a_n7_89# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1059 a_n7_89# a_n9_86# vss vss nfet w=5.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1060 vdd a_n7_89# out vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1061 out a_n7_89# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1062 out a_n7_89# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1063 vdd a_n7_89# out vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1064 vss a_n7_89# out vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1065 vss a_n9_86# a_n7_89# vss nfet w=5.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1066 vdd a_n7_89# out vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1067 out a_n7_89# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1068 vss a_n7_89# out vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1069 vdd a_n7_89# out vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1070 out a_n7_89# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1071 a_n9_86# a_n2_2# vss vss nfet w=2.1u l=0.2u
++  ad=1.26p pd=5.4u as=0p ps=0u
+M1072 out a_n7_89# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1073 vdd a_n7_89# out vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1074 vdd a_n7_89# out vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1075 vdd a_n7_89# out vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1076 vss a_n7_89# out vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1077 vss a_n7_89# out vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1078 vdd a_n9_86# a_n7_89# vdd pfet w=8.9u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1079 out a_n7_89# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1080 vss a_n7_89# out vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1081 out a_n7_89# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1082 vdd a_n2_2# a_n9_86# vdd pfet w=2.1u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1083 vss a_n7_89# out vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1084 out a_n7_89# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1085 out a_n7_89# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1086 vdd a_n7_89# out vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1087 vdd a_n7_89# out vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1088 vss a_n7_89# out vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1089 a_n7_89# a_n9_86# vdd vdd pfet w=8.9u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1090 out a_n7_89# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1091 vdd a_n7_89# out vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1092 out a_n7_89# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1093 out a_n7_89# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1094 out a_n7_89# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1095 vdd a_n7_89# out vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1096 a_n7_89# a_n9_86# vss vss nfet w=5.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1097 out a_n7_89# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1098 vdd a_n7_89# out vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1099 vss a_n7_89# out vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1100 vss a_n2_2# a_n9_86# vss nfet w=2.1u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1101 out a_n7_89# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1102 out a_n7_89# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1103 a_n7_89# a_n9_86# vdd vdd pfet w=8.9u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1104 out a_n7_89# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1105 vdd a_n9_86# a_n7_89# vdd pfet w=8.9u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1106 vss a_n7_89# out vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1107 vss a_n7_89# out vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1108 out a_n7_89# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1109 vss a_n7_89# out vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1110 vss a_n7_89# out vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1111 vdd a_n7_89# out vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1112 out a_n7_89# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1113 vdd a_n7_89# out vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1114 vss a_n7_89# out vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1115 vdd a_n7_89# out vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1116 out a_n7_89# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1117 vss a_n7_89# out vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1118 vdd a_n7_89# out vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1119 out a_n7_89# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1120 out a_n7_89# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1121 vss a_n9_86# a_n7_89# vss nfet w=5.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1122 out a_n7_89# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1123 out a_n7_89# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1124 vss a_n7_89# out vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1125 vss a_n7_89# out vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+C0 out vss 59.08fF
+C1 vss a_n7_89# 11.54fF
+C2 vdd a_n9_86# 2.47fF
+C3 out vdd 111.79fF
+C4 out a_n7_89# 2.79fF
+C5 vdd a_n7_89# 16.73fF
+C6 vss 0 5.92fF
+C7 vdd 0 99.09fF
+
+
+
+
+
+Rvss vss 0 1u
+
+.param freq=30MEG
+.param Tperiod=1/{freq}
+.param Ton=0.5*{Tperiod}
+Rin in rin 50
+Vin rin 0 PULSE(0 {VDD} 0 .1n .1n {Ton} {Tperiod})
+;Vin rin 0 SINE(0.9V 0.9V {freq} 0 0 -90) ; przebieg sinusoidalny
+; do zaobserwowania oraz wykreslenia histerezy
+Vdd vdd 0 {VDD}
+
+Cload out 0 25p ; obciazenie 25pF
+
+.param I=15m
+;.step param I 0 20m .2m ; nalezy odkomentowac dla badania wydajnosci pradowej
+*********************
+*** do badania Io-***
+*********************
+;Iload 0 out {I} ; obciazenie pradowe (bez analizy step domyslnie 15mA)
+*********************
+*** do badania Io+***
+*********************
+;Iload out 0 {I} ; obciazenie pradowe (bez analizy step domyslnie 15mA)
+;Vtest in 0 {VDD} ; WAZNE!!! do testu zakomentowac zrodlo Vin
+
+
+.step temp list -30 27 125
+.param VDD=1.8
+.step param VDD list 1.62 1.8 1.98
+
+.tran 0 200n 0 ; do zbadania przebiegu wyjsciowego
+; oraz maksymalnej czestotliwosci
+
+;
+.end

@@ -1,0 +1,61 @@
+NAND_histeresys
+
+.lib tsmc180_t77a_spice.lib
+
+.subckt SCHMITT_TRIGGER in out vdd vss
+M1 1 in vss vss NFET l=.2u w=2u
+M2 vdd in 1 vdd PFET l=.2u w=4u
+M3 1 out vss vss NFET l=.2u w=.4u
+M4 vdd out 1 vdd PFET l=.2u w=.8u
+M5 out 1 vss vss NFET l=.2u w=.4u
+M6 vdd 1 out vdd PFET l=.2u w=.8u
+.ends
+
+.subckt NAND A B out vdd vss
+M1 vdd A out vdd PFET l=.2u w=.8u
+M3 out A 1 0 NFET l=.2u w=.4u
+M2 vdd B out vdd PFET l=.2u w=.8u
+M4 1 B 0 0 NFET l=.2u w=.4u
+.ends
+
+.subckt OUTPUT_BUFFER in out vdd vss
+M1 vdd in 1 vdd PFET l=.2u w=.8u
+M2 1 in vss vss NFET l=.2u w=.4u
+M3 vdd 1 2 vdd PFET l=.2u w=8.4u
+M4 2 1 vss vss NFET l=.2u w=4.2u
+M5 vdd 2 3 vdd PFET l=.2u w=89u
+M6 3 2 vss vss NFET l=.2u w=44.5u
+M7 vdd 3 out vdd PFET l=.2u w=938.7u
+M8 out 3 vss vss NFET l=.2u w=469.4u
+.ends
+
+X1 A nand_A vdd 0 SCHMITT_TRIGGER
+X2 B nand_B vdd 0 SCHMITT_TRIGGER
+X3 nand_A nand_B nand_out vdd vss NAND
+X4 nand_out out vdd 0 OUTPUT_BUFFER
+
+Cload out 0 25p
+
+.param Ain=0V
+.param Bin=1.8V
+
+.param freq=30MEG
+.param Tperiod=1/{freq}
+.param Ton=0.5*{Tperiod}
+
+;.step param VDD list 1.72 1.8 1.98
+;.step param temp list -30 27 120
+
+Rtest N2 N1 100 ; symuluje rezystancje poprzedniego stopnia
+; przed wejsciem A do urzeczywistnienia pomiaru Ix(x1:in)
+Vdd vdd 0 1.8
+Va N1 0 {Ain}
+Vb B 0 {Bin}
+;Vclock A N2 PULSE(0 1.8 0 .05n .05n {Ton} {Tperiod}) ; przebieg prostokatny
+; do badania maksymalnej czestotliwosci ukladu
+VinAC A N1 SINE(0.9V 0.9V {freq} 0 0 -90) ; przebieg sinusoidalny
+; do zaobserwowania oraz wykreslenia histerezy
+
+.tran 0 200n 0 100p
+
+.end

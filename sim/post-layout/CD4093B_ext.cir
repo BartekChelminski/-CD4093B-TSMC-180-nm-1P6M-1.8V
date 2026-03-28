@@ -1,0 +1,1300 @@
+CD4093B po ekstrakcji
+
+********************************************************************
+****** kompletny uklad - 4 bramki wraz z buforami wyjsciowymi ******
+********************************************************************
+.lib tsmc180_t77a_spice.lib
+
+
+* SPICE3 file created from CD4093B.ext - technology: scmos
+
+M1000 vss a_n527_n567# L vss nfet w=9.4u l=0.2u
++  ad=661.84p pd=2445.6u as=150.6p ps=513.6u
+M1001 M a_n527_11# vss vss nfet w=9.4u l=0.2u
++  ad=150.6p pd=513.6u as=0p ps=0u
+M1002 L a_n527_n567# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1003 M a_n527_11# vdd vdd pfet w=18.5u l=0.2u
++  ad=287.1p pd=968.6u as=1301.28p ps=4641.6u
+M1004 vss a_n1091_478# a_n1166_440# vss nfet w=2.1u l=0.2u
++  ad=0p pd=0u as=1.26p ps=5.4u
+M1005 vdd a_n488_435# a_n527_11# vdd pfet w=8.9u l=0.2u
++  ad=0p pd=0u as=26.7p ps=95u
+M1006 vss a_n1166_n567# K vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=150.6p ps=513.6u
+M1007 J a_n1166_11# vdd vdd pfet w=18.5u l=0.2u
++  ad=287.1p pd=968.6u as=0p ps=0u
+M1008 vdd a_n527_n567# L vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=287.1p ps=968.6u
+M1009 vdd a_n1166_440# a_n1166_11# vdd pfet w=8.9u l=0.2u
++  ad=0p pd=0u as=26.7p ps=95u
+M1010 vdd a_n1166_11# J vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1011 K a_n1166_n567# vdd vdd pfet w=18.5u l=0.2u
++  ad=287.1p pd=968.6u as=0p ps=0u
+M1012 M a_n527_11# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1013 J a_n1166_11# vss vss nfet w=9.4u l=0.2u
++  ad=150.6p pd=513.6u as=0p ps=0u
+M1014 vss a_n362_462# a_n488_435# vss nfet w=2.1u l=0.2u
++  ad=0p pd=0u as=1.26p ps=5.4u
+M1015 a_n1166_n567# a_n1166_n660# vss vss nfet w=5.5u l=0.2u
++  ad=13.2p pd=48.8u as=0p ps=0u
+M1016 a_n1166_11# a_n1166_440# vss vss nfet w=5.5u l=0.2u
++  ad=13.2p pd=48.8u as=0p ps=0u
+M1017 vss a_n1166_11# J vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1018 vdd a_n1166_n567# K vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1019 a_n1029_n839# a_n1074_n746# vss vss nfet w=0.4u l=0.2u
++  ad=1.2p pd=6.8u as=0p ps=0u
+M1020 vss a_n527_11# M vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1021 vss a_n527_n567# L vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1022 vss a_n1166_11# J vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1023 M a_n527_11# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1024 vss a_n1166_n567# K vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1025 M a_n527_11# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1026 L a_n527_n567# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1027 vdd a_n1091_n650# a_n1166_n660# vdd pfet w=2.1u l=0.2u
++  ad=0p pd=0u as=2.52p ps=10.8u
+M1028 NAND_out NAND_B vdd vdd pfet w=0.8u l=0.2u
++  ad=0.48p pd=2.8u as=0p ps=0u
+M1029 vdd a_n1166_440# a_n1166_11# vdd pfet w=8.9u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1030 vdd a_n527_11# M vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1031 a_n527_n567# a_n488_n671# vdd vdd pfet w=8.9u l=0.2u
++  ad=26.7p pd=95u as=0p ps=0u
+M1032 L a_n527_n567# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1033 vdd a_n527_n567# L vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1034 J a_n1166_11# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1035 vss a_n1166_n567# K vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1036 vdd a_n1166_n567# K vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1037 vdd a_n1166_11# J vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1038 K a_n1166_n567# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1039 J a_n1166_11# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1040 vss a_n362_n650# a_n488_n671# vss nfet w=2.1u l=0.2u
++  ad=0p pd=0u as=1.26p ps=5.4u
+M1041 M a_n527_11# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1042 vdd a_n1166_n567# K vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1043 vdd NAND_out a_n1091_478# vdd pfet w=0.8u l=0.2u
++  ad=0p pd=0u as=0.4p ps=2.6u
+M1044 vss a_n527_n567# L vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1045 vss a_n488_n671# a_n527_n567# vss nfet w=5.5u l=0.2u
++  ad=0p pd=0u as=13.2p ps=48.8u
+M1046 vdd a_n488_435# a_n527_11# vdd pfet w=8.9u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1047 M a_n527_11# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1048 L a_n527_n567# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1049 L a_n527_n567# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1050 a_n1074_n666# a_n1074_n746# vdd vdd pfet w=0.8u l=0.2u
++  ad=0.48p pd=2.8u as=0p ps=0u
+M1051 vdd a_n527_n567# L vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1052 J a_n1166_11# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1053 vss a_n1166_n567# K vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1054 vdd a_n527_11# M vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1055 J a_n1166_11# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1056 vdd a_n1166_n567# K vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1057 K a_n1166_n567# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1058 vdd a_n1029_672# NAND_A vdd pfet w=0.8u l=0.2u
++  ad=0p pd=0u as=0.4p ps=2.6u
+M1059 vss a_n527_11# M vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1060 M a_n527_11# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1061 a_n1166_440# a_n1091_478# vdd vdd pfet w=2.1u l=0.2u
++  ad=2.52p pd=10.8u as=0p ps=0u
+M1062 a_n527_11# a_n488_435# vss vss nfet w=5.5u l=0.2u
++  ad=13.2p pd=48.8u as=0p ps=0u
+M1063 L a_n527_n567# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1064 vss a_n527_n567# L vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1065 a_n298_n847# F vss vss nfet w=2u l=0.2u
++  ad=1.2p pd=6.8u as=0p ps=0u
+M1066 vdd a_n1166_440# a_n1166_11# vdd pfet w=8.9u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1067 vdd a_n362_462# a_n488_435# vdd pfet w=2.1u l=0.2u
++  ad=0p pd=0u as=2.52p ps=10.8u
+M1068 J a_n1166_11# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1069 a_n527_n567# a_n488_n671# vdd vdd pfet w=8.9u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1070 M a_n527_11# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1071 M a_n527_11# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1072 vdd a_n527_n567# L vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1073 vss NAND_B a_n1146_672# vss nfet w=0.4u l=0.2u
++  ad=0p pd=0u as=1.2p ps=6.8u
+M1074 J a_n1166_11# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1075 K a_n1166_n567# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1076 vss a_n1166_n567# K vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1077 vdd D a_n1029_n839# vdd pfet w=2u l=0.2u
++  ad=0p pd=0u as=1.6p ps=7.8u
+M1078 vss a_n1166_11# J vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1079 vdd a_n527_n567# L vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1080 K a_n1166_n567# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1081 J a_n1166_11# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1082 L a_n527_n567# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1083 a_n349_n666# a_n410_n825# vdd vdd pfet w=0.8u l=0.2u
++  ad=0.48p pd=2.8u as=0p ps=0u
+M1084 vss a_n527_11# M vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1085 vdd a_n527_11# M vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1086 vss a_n527_n567# L vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1087 a_n1146_n839# a_n1137_n825# vdd vdd pfet w=0.8u l=0.2u
++  ad=1.6p pd=7.8u as=0p ps=0u
+M1088 vdd a_n348_574# a_n298_679# vdd pfet w=0.8u l=0.2u
++  ad=0p pd=0u as=1.6p ps=7.8u
+M1089 a_n527_11# a_n488_435# vdd vdd pfet w=8.9u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1090 M a_n527_11# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1091 vdd a_n527_n567# L vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1092 L a_n527_n567# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1093 vdd a_n1166_11# J vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1094 K a_n1166_n567# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1095 J a_n1166_11# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1096 vdd a_n1166_11# J vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1097 K a_n1166_n567# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1098 J a_n1166_11# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1099 a_n298_n847# F vdd vdd pfet w=2u l=0.2u
++  ad=1.6p pd=7.8u as=0p ps=0u
+M1100 vss a_n1166_n567# K vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1101 a_n1166_11# a_n1166_440# vss vss nfet w=5.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1102 vdd a_n527_11# M vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1103 a_n349_502# a_n348_574# vdd vdd pfet w=0.8u l=0.2u
++  ad=0.48p pd=2.8u as=0p ps=0u
+M1104 vss a_n1166_n660# a_n1166_n567# vss nfet w=5.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1105 vss a_n527_11# M vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1106 vdd H a_n415_679# vdd pfet w=2u l=0.2u
++  ad=0p pd=0u as=1.6p ps=7.8u
+M1107 vss a_n527_n567# L vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1108 K a_n1166_n567# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1109 J a_n1166_11# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1110 M a_n527_11# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1111 vss a_n527_11# M vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1112 M a_n527_11# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1113 vss a_n527_n567# L vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1114 a_n1166_n660# a_n1091_n650# vdd vdd pfet w=2.1u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1115 a_n298_679# G vdd vdd pfet w=2u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1116 vdd a_n1166_n660# a_n1166_n567# vdd pfet w=8.9u l=0.2u
++  ad=0p pd=0u as=26.7p ps=95u
+M1117 a_n1166_11# a_n1166_440# vdd vdd pfet w=8.9u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1118 J a_n1166_11# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1119 vss a_n1166_n567# K vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1120 vss a_n527_11# M vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1121 L a_n527_n567# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1122 vss a_n1091_n650# a_n1166_n660# vss nfet w=2.1u l=0.2u
++  ad=0p pd=0u as=1.26p ps=5.4u
+M1123 vss a_n415_679# a_n410_657# vss nfet w=0.4u l=0.2u
++  ad=0p pd=0u as=0.2p ps=1.8u
+M1124 J a_n1166_11# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1125 vss a_n1166_11# J vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1126 K a_n1166_n567# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1127 vss a_n410_657# a_n313_576# vss nfet w=0.4u l=0.2u
++  ad=0p pd=0u as=0.24p ps=2u
+M1128 vss a_n1166_n567# K vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1129 a_n362_n650# a_n349_n666# vss vss nfet w=0.4u l=0.2u
++  ad=0.2p pd=1.8u as=0p ps=0u
+M1130 a_n410_n825# a_n415_n847# vss vss nfet w=0.4u l=0.2u
++  ad=0.2p pd=1.8u as=0p ps=0u
+M1131 vdd a_n1166_n567# K vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1132 vss a_n527_11# M vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1133 vdd a_n415_679# a_n410_657# vdd pfet w=0.8u l=0.2u
++  ad=0p pd=0u as=0.4p ps=2.6u
+M1134 vss a_n527_n567# L vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1135 a_n527_n567# a_n488_n671# vss vss nfet w=5.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1136 vdd a_n527_11# M vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1137 M a_n527_11# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1138 L a_n527_n567# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1139 vss a_n527_n567# L vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1140 J a_n1166_11# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1141 vdd a_n1166_11# J vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1142 vss a_n1166_n567# K vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1143 K a_n1166_n567# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1144 vdd a_n527_11# M vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1145 a_n348_n738# a_n298_n847# vdd vdd pfet w=0.8u l=0.2u
++  ad=0.4p pd=2.6u as=0p ps=0u
+M1146 L a_n527_n567# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1147 J a_n1166_11# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1148 K a_n1166_n567# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1149 vdd a_n1166_n567# K vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1150 vss a_n1166_11# J vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1151 a_n1166_440# a_n1091_478# vdd vdd pfet w=2.1u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1152 vss a_n1166_440# a_n1166_11# vss nfet w=5.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1153 a_n527_11# a_n488_435# vss vss nfet w=5.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1154 vss a_n527_11# M vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1155 M a_n527_11# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1156 vss a_n527_n567# L vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1157 a_n362_n650# a_n349_n666# vdd vdd pfet w=0.8u l=0.2u
++  ad=0.4p pd=2.6u as=0p ps=0u
+M1158 L a_n527_n567# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1159 J a_n1166_11# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1160 vdd a_n1166_n660# a_n1166_n567# vdd pfet w=8.9u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1161 vss a_n527_11# M vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1162 vdd a_n527_11# M vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1163 L a_n527_n567# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1164 a_n1071_n744# a_n1074_n746# vss vss nfet w=0.4u l=0.2u
++  ad=0.24p pd=2u as=0p ps=0u
+M1165 vss a_n298_679# a_n348_574# vss nfet w=0.4u l=0.2u
++  ad=0p pd=0u as=0.2p ps=1.8u
+M1166 vss a_n1166_11# J vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1167 vdd a_n1166_n567# K vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1168 vdd a_n527_n567# L vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1169 vss NAND_A a_n1071_576# vss nfet w=0.4u l=0.2u
++  ad=0p pd=0u as=0.24p ps=2u
+M1170 vdd a_n1166_11# J vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1171 vdd E a_n415_n847# vdd pfet w=2u l=0.2u
++  ad=0p pd=0u as=1.6p ps=7.8u
+M1172 K a_n1166_n567# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1173 K a_n1166_n567# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1174 vss a_n1166_11# J vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1175 L a_n527_n567# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1176 vss a_n527_11# M vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1177 a_n1146_672# B vdd vdd pfet w=2u l=0.2u
++  ad=1.6p pd=7.8u as=0p ps=0u
+M1178 vdd a_n527_11# M vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1179 L a_n527_n567# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1180 a_n527_11# a_n488_435# vdd vdd pfet w=8.9u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1181 a_n1146_n839# C vdd vdd pfet w=2u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1182 vdd a_n1166_11# J vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1183 K a_n1166_n567# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1184 vdd a_n527_11# M vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1185 L a_n527_n567# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1186 vdd a_n527_n567# L vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1187 J a_n1166_11# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1188 vss a_n1166_11# J vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1189 vdd a_n1166_n567# K vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1190 vss a_n1166_440# a_n1166_11# vss nfet w=5.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1191 vdd a_n1166_11# J vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1192 K a_n1166_n567# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1193 M a_n527_11# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1194 a_n1166_n567# a_n1166_n660# vss vss nfet w=5.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1195 K a_n1166_n567# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1196 M a_n527_11# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1197 L a_n527_n567# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1198 vss a_n527_11# M vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1199 vss a_n488_435# a_n527_11# vss nfet w=5.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1200 vss a_n1166_11# J vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1201 vss a_n527_n567# L vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1202 a_n1166_n660# a_n1091_n650# vdd vdd pfet w=2.1u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1203 vdd a_n527_11# M vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1204 vdd a_n527_n567# L vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1205 vdd NAND_A NAND_out vdd pfet w=0.8u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1206 a_n1166_11# a_n1166_440# vdd vdd pfet w=8.9u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1207 vdd a_n488_n671# a_n527_n567# vdd pfet w=8.9u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1208 a_n1166_n567# a_n1166_n660# vdd vdd pfet w=8.9u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1209 vdd a_n1166_11# J vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1210 L a_n527_n567# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1211 K a_n1166_n567# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1212 vdd a_n362_n650# a_n488_n671# vdd pfet w=2.1u l=0.2u
++  ad=0p pd=0u as=2.52p ps=10.8u
+M1213 vss a_n1166_n567# K vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1214 vss a_n1166_11# J vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1215 vdd a_n1166_n567# K vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1216 J a_n1166_11# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1217 K a_n1166_n567# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1218 M a_n527_11# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1219 a_n527_n567# a_n488_n671# vss vss nfet w=5.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1220 vdd a_n527_11# M vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1221 vss a_n527_n567# L vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1222 M a_n527_11# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1223 vdd a_n527_n567# L vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1224 L a_n527_n567# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1225 vss B a_n1146_672# vss nfet w=2u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1226 vdd a_n1166_11# J vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1227 J a_n1166_11# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1228 K a_n1166_n567# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1229 vss a_n1166_n567# K vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1230 vss a_n1166_11# J vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1231 J a_n1166_11# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1232 K a_n1166_n567# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1233 vdd a_n1166_n567# K vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1234 M a_n527_11# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1235 vss a_n527_11# M vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1236 vdd a_n1091_478# a_n1166_440# vdd pfet w=2.1u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1237 vss a_n488_435# a_n527_11# vss nfet w=5.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1238 a_n1074_n746# a_n1029_n839# vss vss nfet w=0.4u l=0.2u
++  ad=0.2p pd=1.8u as=0p ps=0u
+M1239 L a_n527_n567# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1240 vss a_n1166_11# J vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1241 vss a_n527_11# M vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1242 vdd a_n527_11# M vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1243 vdd a_n488_n671# a_n527_n567# vdd pfet w=8.9u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1244 vss a_n1166_n567# K vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1245 L a_n527_n567# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1246 vdd a_n527_n567# L vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1247 K a_n1166_n567# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1248 vdd a_n1166_11# J vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1249 a_n415_n847# E vss vss nfet w=2u l=0.2u
++  ad=1.2p pd=6.8u as=0p ps=0u
+M1250 J a_n1166_11# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1251 K a_n1166_n567# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1252 L a_n527_n567# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1253 vss a_n1166_11# J vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1254 vdd a_n1166_n567# K vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1255 vdd NAND_B a_n1146_672# vdd pfet w=0.8u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1256 M a_n527_11# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1257 vss NAND_A a_n1029_672# vss nfet w=0.4u l=0.2u
++  ad=0p pd=0u as=1.2p ps=6.8u
+M1258 L a_n527_n567# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1259 M a_n527_11# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1260 vss a_n488_n671# a_n527_n567# vss nfet w=5.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1261 vdd a_n488_435# a_n527_11# vdd pfet w=8.9u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1262 vdd a_n527_11# M vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1263 L a_n527_n567# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1264 J a_n1166_11# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1265 vdd a_n527_n567# L vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1266 vss a_n1166_n567# K vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1267 vss A a_n1029_672# vss nfet w=2u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1268 L a_n527_n567# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1269 vdd a_n1166_n567# K vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1270 vdd a_n1166_11# J vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1271 K a_n1166_n567# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1272 vss a_n1166_440# a_n1166_11# vss nfet w=5.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1273 J a_n1166_11# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1274 vdd a_n1166_11# J vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1275 M a_n527_11# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1276 M a_n527_11# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1277 vdd a_n410_657# a_n349_502# vdd pfet w=0.8u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1278 a_n1166_n567# a_n1166_n660# vss vss nfet w=5.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1279 vdd a_n1166_n567# K vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1280 a_n349_n666# a_n348_n738# a_n313_n744# vss nfet w=0.4u l=0.2u
++  ad=0.2p pd=1.8u as=0.24p ps=2u
+M1281 M a_n527_11# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1282 vss a_n1166_11# J vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1283 L a_n527_n567# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1284 M a_n527_11# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1285 vss a_n527_n567# L vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1286 L a_n527_n567# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1287 a_n1166_n567# a_n1166_n660# vdd vdd pfet w=8.9u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1288 vdd G a_n298_679# vdd pfet w=2u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1289 vdd a_n1166_440# a_n1166_11# vdd pfet w=8.9u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1290 a_n298_n847# a_n348_n738# vss vss nfet w=0.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1291 M a_n527_11# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1292 a_n527_n567# a_n488_n671# vdd vdd pfet w=8.9u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1293 vdd a_n527_n567# L vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1294 J a_n1166_11# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1295 vss a_n1166_n567# K vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1296 vss a_n1146_672# NAND_B vss nfet w=0.4u l=0.2u
++  ad=0p pd=0u as=0.2p ps=1.8u
+M1297 vss a_n1166_11# J vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1298 J a_n1166_11# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1299 vdd a_n1166_n567# K vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1300 a_n488_n671# a_n362_n650# vdd vdd pfet w=2.1u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1301 a_n415_n847# a_n410_n825# vdd vdd pfet w=0.8u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1302 a_n1029_n839# a_n1074_n746# vdd vdd pfet w=0.8u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1303 K a_n1166_n567# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1304 M a_n527_11# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1305 L a_n527_n567# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1306 vdd a_n1166_n567# K vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1307 M a_n527_11# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1308 vdd a_n527_11# M vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1309 vdd a_n527_n567# L vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1310 vdd a_n1166_n660# a_n1166_n567# vdd pfet w=8.9u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1311 vss a_n527_n567# L vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1312 L a_n527_n567# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1313 a_n1137_n825# a_n1146_n839# vdd vdd pfet w=0.8u l=0.2u
++  ad=0.4p pd=2.6u as=0p ps=0u
+M1314 K a_n1166_n567# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1315 vdd a_n1166_11# J vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1316 J a_n1166_11# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1317 vss a_n1166_n567# K vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1318 M a_n527_11# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1319 vdd a_n298_679# a_n348_574# vdd pfet w=0.8u l=0.2u
++  ad=0p pd=0u as=0.4p ps=2.6u
+M1320 vdd a_n527_n567# L vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1321 vdd a_n1166_11# J vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1322 vdd a_n1166_n567# K vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1323 J a_n1166_11# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1324 K a_n1166_n567# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1325 vdd a_n1091_478# a_n1166_440# vdd pfet w=2.1u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1326 a_n1166_11# a_n1166_440# vss vss nfet w=5.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1327 vdd a_n527_11# M vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1328 vss a_n488_435# a_n527_11# vss nfet w=5.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1329 a_n1029_672# A vdd vdd pfet w=2u l=0.2u
++  ad=1.6p pd=7.8u as=0p ps=0u
+M1330 vss a_n1166_n660# a_n1166_n567# vss nfet w=5.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1331 vss a_n527_11# M vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1332 M a_n527_11# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1333 vss a_n527_n567# L vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1334 a_n1166_n567# a_n1166_n660# vdd vdd pfet w=8.9u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1335 M a_n527_11# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1336 J a_n1166_11# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1337 vdd a_n527_n567# L vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1338 M a_n527_11# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1339 K a_n1166_n567# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1340 J a_n1166_11# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1341 K a_n1166_n567# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1342 J a_n1166_11# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1343 vss a_n1166_n567# K vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1344 vdd a_n527_n567# L vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1345 a_n1146_n839# a_n1137_n825# vss vss nfet w=0.4u l=0.2u
++  ad=1.2p pd=6.8u as=0p ps=0u
+M1346 J a_n1166_11# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1347 a_n1029_n839# D vss vss nfet w=2u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1348 K a_n1166_n567# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1349 vss a_n527_n567# L vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1350 vdd B a_n1146_672# vdd pfet w=2u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1351 a_n488_n671# a_n362_n650# vss vss nfet w=2.1u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1352 vss a_n527_11# M vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1353 M a_n527_11# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1354 vss a_n527_n567# L vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1355 vss a_n488_n671# a_n527_n567# vss nfet w=5.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1356 J a_n1166_11# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1357 vss a_n1166_n567# K vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1358 a_n527_11# a_n488_435# vdd vdd pfet w=8.9u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1359 L a_n527_n567# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1360 M a_n527_11# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1361 vdd a_n527_n567# L vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1362 L a_n527_n567# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1363 vdd F a_n298_n847# vdd pfet w=2u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1364 J a_n1166_11# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1365 vdd a_n1166_11# J vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1366 K a_n1166_n567# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1367 J a_n1166_11# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1368 vss a_n1166_n567# K vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1369 vdd a_n527_11# M vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1370 vdd a_n1166_n567# K vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1371 vss a_n527_11# M vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1372 M a_n527_11# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1373 a_n527_11# a_n488_435# vss vss nfet w=5.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1374 vdd a_n1091_n650# a_n1166_n660# vdd pfet w=2.1u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1375 M a_n527_11# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1376 L a_n527_n567# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1377 vss a_n527_n567# L vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1378 M a_n527_11# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1379 a_n527_n567# a_n488_n671# vdd vdd pfet w=8.9u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1380 vdd a_n1166_n660# a_n1166_n567# vdd pfet w=8.9u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1381 vss a_n1166_n567# K vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1382 a_n1166_11# a_n1166_440# vdd vdd pfet w=8.9u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1383 J a_n1166_11# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1384 a_n488_435# a_n362_462# vdd vdd pfet w=2.1u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1385 L a_n527_n567# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1386 vss H a_n415_679# vss nfet w=2u l=0.2u
++  ad=0p pd=0u as=1.2p ps=6.8u
+M1387 a_n488_n671# a_n362_n650# vdd vdd pfet w=2.1u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1388 J a_n1166_11# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1389 vss a_n1166_11# J vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1390 vss a_n1166_n567# K vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1391 a_n1029_n839# D vdd vdd pfet w=2u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1392 vdd a_n1166_n567# K vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1393 vss a_n349_502# a_n362_462# vss nfet w=0.4u l=0.2u
++  ad=0p pd=0u as=0.2p ps=1.8u
+M1394 vss a_n488_n671# a_n527_n567# vss nfet w=5.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1395 M a_n527_11# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1396 vss a_n527_n567# L vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1397 L a_n527_n567# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1398 vdd a_n488_n671# a_n527_n567# vdd pfet w=8.9u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1399 vdd a_n527_11# M vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1400 vdd a_n349_502# a_n362_462# vdd pfet w=0.8u l=0.2u
++  ad=0p pd=0u as=0.4p ps=2.6u
+M1401 L a_n527_n567# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1402 a_n1166_440# a_n1091_478# vss vss nfet w=2.1u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1403 a_n1091_n650# a_n1074_n666# vss vss nfet w=0.4u l=0.2u
++  ad=0.2p pd=1.8u as=0p ps=0u
+M1404 a_n527_11# a_n488_435# vdd vdd pfet w=8.9u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1405 vdd a_n527_n567# L vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1406 J a_n1166_11# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1407 vdd a_n1166_11# J vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1408 vss a_n1166_n567# K vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1409 K a_n1166_n567# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1410 K a_n1166_n567# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1411 a_n1166_11# a_n1166_440# vss vss nfet w=5.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1412 vss a_n1166_11# J vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1413 J a_n1166_11# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1414 vdd NAND_A a_n1029_672# vdd pfet w=0.8u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1415 a_n488_435# a_n362_462# vss vss nfet w=2.1u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1416 vss a_n527_11# M vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1417 vss a_n1166_n660# a_n1166_n567# vss nfet w=5.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1418 K a_n1166_n567# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1419 J a_n1166_11# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1420 L a_n527_n567# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1421 vss a_n527_11# M vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1422 a_n527_n567# a_n488_n671# vdd vdd pfet w=8.9u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1423 K a_n1166_n567# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1424 vss a_n527_n567# L vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1425 vss a_n527_11# M vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1426 vdd a_n527_11# M vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1427 vss G a_n298_679# vss nfet w=2u l=0.2u
++  ad=0p pd=0u as=1.2p ps=6.8u
+M1428 a_n1166_11# a_n1166_440# vdd vdd pfet w=8.9u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1429 vss a_n1166_11# J vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1430 vdd a_n527_n567# L vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1431 vdd a_n1166_11# J vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1432 K a_n1166_n567# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1433 J a_n1166_11# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1434 a_n1166_n660# a_n1091_n650# vss vss nfet w=2.1u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1435 K a_n1166_n567# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1436 vss NAND_out a_n1091_478# vss nfet w=0.4u l=0.2u
++  ad=0p pd=0u as=0.2p ps=1.8u
+M1437 vss a_n527_11# M vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1438 vss a_n527_n567# L vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1439 K a_n1166_n567# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1440 vdd a_n527_11# M vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1441 vdd C a_n1146_n839# vdd pfet w=2u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1442 a_n527_n567# a_n488_n671# vss vss nfet w=5.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1443 a_n527_11# a_n488_435# vdd vdd pfet w=8.9u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1444 M a_n527_11# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1445 L a_n527_n567# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1446 K a_n1166_n567# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1447 vdd a_n1166_11# J vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1448 vss a_n527_n567# L vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1449 J a_n1166_11# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1450 vss a_n1166_n567# K vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1451 vdd a_n1137_n825# a_n1074_n666# vdd pfet w=0.8u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1452 vdd a_n527_11# M vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1453 L a_n527_n567# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1454 vss a_n1166_n660# a_n1166_n567# vss nfet w=5.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1455 K a_n1166_n567# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1456 vdd a_n1166_n567# K vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1457 a_n313_n744# a_n410_n825# vss vss nfet w=0.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1458 a_n527_11# a_n488_435# vss vss nfet w=5.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1459 J a_n1166_11# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1460 M a_n527_11# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1461 vss a_n527_11# M vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1462 vss a_n527_n567# L vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1463 L a_n527_n567# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1464 a_n1091_n650# a_n1074_n666# vdd vdd pfet w=0.8u l=0.2u
++  ad=0.4p pd=2.6u as=0p ps=0u
+M1465 vdd a_n1166_n660# a_n1166_n567# vdd pfet w=8.9u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1466 a_n1166_11# a_n1166_440# vdd vdd pfet w=8.9u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1467 a_n488_435# a_n362_462# vdd vdd pfet w=2.1u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1468 vss a_n1166_11# J vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1469 vdd a_n488_n671# a_n527_n567# vdd pfet w=8.9u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1470 L a_n527_n567# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1471 vss a_n527_11# M vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1472 vss a_n410_657# a_n415_679# vss nfet w=0.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1473 vss a_n1166_11# J vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1474 K a_n1166_n567# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1475 vss a_n1166_n567# K vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1476 a_n415_n847# a_n410_n825# vss vss nfet w=0.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1477 L a_n527_n567# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1478 vss a_n527_11# M vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1479 a_n415_n847# E vdd vdd pfet w=2u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1480 vss a_n1166_11# J vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1481 K a_n1166_n567# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1482 vdd a_n1166_n567# K vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1483 vdd a_n410_657# a_n415_679# vdd pfet w=0.8u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1484 vdd a_n1146_672# NAND_B vdd pfet w=0.8u l=0.2u
++  ad=0p pd=0u as=0.4p ps=2.6u
+M1485 M a_n527_11# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1486 vdd a_n527_11# M vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1487 vdd a_n348_n738# a_n349_n666# vdd pfet w=0.8u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1488 vss a_n1029_672# NAND_A vss nfet w=0.4u l=0.2u
++  ad=0p pd=0u as=0.2p ps=1.8u
+M1489 L a_n527_n567# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1490 vdd a_n1166_11# J vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1491 K a_n1166_n567# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1492 vdd a_n488_435# a_n527_11# vdd pfet w=8.9u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1493 vdd a_n527_11# M vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1494 a_n298_n847# a_n348_n738# vdd vdd pfet w=0.8u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1495 L a_n527_n567# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1496 vdd a_n527_n567# L vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1497 vss a_n1166_11# J vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1498 J a_n1166_11# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1499 vdd a_n1166_n567# K vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1500 vdd a_n1166_11# J vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1501 K a_n1166_n567# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1502 vss a_n1166_440# a_n1166_11# vss nfet w=5.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1503 M a_n527_11# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1504 vdd A a_n1029_672# vdd pfet w=2u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1505 a_n1166_n567# a_n1166_n660# vss vss nfet w=5.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1506 M a_n527_11# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1507 a_n415_679# H vdd vdd pfet w=2u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1508 L a_n527_n567# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1509 vss a_n1166_11# J vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1510 vss a_n527_11# M vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1511 vdd a_n527_11# M vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1512 L a_n527_n567# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1513 vss a_n348_574# a_n298_679# vss nfet w=0.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1514 L a_n527_n567# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1515 a_n1166_n567# a_n1166_n660# vdd vdd pfet w=8.9u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1516 vdd a_n1166_n567# K vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1517 vdd a_n1166_11# J vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1518 a_n348_n738# a_n298_n847# vss vss nfet w=0.4u l=0.2u
++  ad=0.2p pd=1.8u as=0p ps=0u
+M1519 K a_n1166_n567# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1520 vdd a_n1166_440# a_n1166_11# vdd pfet w=8.9u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1521 L a_n527_n567# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1522 vdd a_n527_n567# L vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1523 vdd a_n1166_n567# K vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1524 a_n313_576# a_n348_574# a_n349_502# vss nfet w=0.4u l=0.2u
++  ad=0p pd=0u as=0.2p ps=1.8u
+M1525 vss a_n1166_11# J vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1526 J a_n1166_11# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1527 a_n410_n825# a_n415_n847# vdd vdd pfet w=0.8u l=0.2u
++  ad=0.4p pd=2.6u as=0p ps=0u
+M1528 K a_n1166_n567# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1529 a_n1074_n746# a_n1029_n839# vdd vdd pfet w=0.8u l=0.2u
++  ad=0.4p pd=2.6u as=0p ps=0u
+M1530 K a_n1166_n567# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1531 M a_n527_11# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1532 a_n527_n567# a_n488_n671# vss vss nfet w=5.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1533 L a_n527_n567# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1534 a_n1146_n839# C vss vss nfet w=2u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1535 vss a_n527_11# M vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1536 M a_n527_11# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1537 vdd a_n527_11# M vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1538 vss a_n527_n567# L vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1539 vdd a_n527_n567# L vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1540 vss a_n1166_11# J vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1541 J a_n1166_11# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1542 vdd a_n1166_11# J vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1543 J a_n1166_11# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1544 K a_n1166_n567# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1545 vss a_n1166_n567# K vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1546 M a_n527_11# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1547 J a_n1166_11# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1548 vdd a_n1166_11# J vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1549 vdd a_n1166_n567# K vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1550 vss a_n488_435# a_n527_11# vss nfet w=5.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1551 M a_n527_11# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1552 vdd a_n527_11# M vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1553 vdd a_n527_n567# L vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1554 L a_n527_n567# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1555 vss a_n527_n567# L vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1556 vdd a_n488_n671# a_n527_n567# vdd pfet w=8.9u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1557 a_n1166_n567# a_n1166_n660# vdd vdd pfet w=8.9u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1558 vdd a_n1166_11# J vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1559 vdd a_n362_462# a_n488_435# vdd pfet w=2.1u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1560 K a_n1166_n567# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1561 M a_n527_11# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1562 M a_n527_11# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1563 vdd a_n527_n567# L vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1564 vdd a_n362_n650# a_n488_n671# vdd pfet w=2.1u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1565 a_n1074_n666# a_n1137_n825# a_n1071_n744# vss nfet w=0.4u l=0.2u
++  ad=0.2p pd=1.8u as=0p ps=0u
+M1566 J a_n1166_11# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1567 vdd a_n488_435# a_n527_11# vdd pfet w=8.9u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1568 L a_n527_n567# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1569 a_n1071_576# NAND_B NAND_out vss nfet w=0.4u l=0.2u
++  ad=0p pd=0u as=0.2p ps=1.8u
+M1570 J a_n1166_11# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1571 K a_n1166_n567# vss vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1572 vss a_n1166_n567# K vss nfet w=9.4u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1573 K a_n1166_n567# vdd vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1574 vdd a_n1166_n567# K vdd pfet w=18.5u l=0.2u
++  ad=0p pd=0u as=0p ps=0u
+M1575 a_n1137_n825# a_n1146_n839# vss vss nfet w=0.4u l=0.2u
++  ad=0.2p pd=1.8u as=0p ps=0u
+C0 K a_n1166_n567# 2.79fF
+C1 vdd J 111.79fF
+C2 vss M 59.35fF
+C3 m2_600_1000# m3_600_1000# 228.48fF
+C4 H m2_600_1000# 228.55fF
+C5 C m2_n2700_n1100# 228.55fF
+C6 vdd vss 3.18fF
+C7 vdd a_n1166_n567# 16.73fF
+C8 m2_600_n1800# m3_600_n1800# 228.48fF
+C9 G m2_600_300# 228.55fF
+C10 F m2_600_n1800# 228.55fF
+C11 m2_600_n400# m3_600_n400# 228.48fF
+C12 J m3_n2700_300# 228.54fF
+C13 m1_600_1700# m2_600_1700# 228.48fF
+C14 vss a_n527_11# 11.54fF
+C15 m1_n2700_n2500# m2_n2700_n2500# 228.48fF
+C16 vdd K 111.79fF
+C17 J a_n1166_11# 2.79fF
+C18 vdd M 111.79fF
+C19 vss L 59.35fF
+C20 m2_n2700_1000# m3_n2700_1000# 228.48fF
+C21 vss a_n1166_11# 11.54fF
+C22 a_n527_11# M 2.79fF
+C23 E m3_600_n2500# 228.54fF
+C24 J m2_n2700_300# 228.55fF
+C25 A m3_n2700_1700# 228.53fF
+C26 m2_n2700_n1800# m3_n2700_n1800# 228.48fF
+C27 vss a_n527_n567# 11.54fF
+C28 vdd a_n527_11# 16.73fF
+C29 m2_n2700_n400# m3_n2700_n400# 228.48fF
+C30 m1_n2700_1700# m2_n2700_1700# 228.48fF
+C31 vdd L 111.79fF
+C32 L m3_600_n1100# 228.54fF
+C33 vdd a_n1166_11# 16.73fF
+C34 m2_600_300# m3_600_300# 228.48fF
+C35 B m3_n2700_1000# 228.54fF
+C36 m2_600_1700# m3_600_1700# 228.48fF
+C37 M m3_600_n400# 228.54fF
+C38 E m2_600_n2500# 228.55fF
+C39 vdd a_n527_n567# 16.73fF
+C40 m2_600_n2500# m3_600_n2500# 228.48fF
+C41 K m3_n2700_n400# 228.54fF
+C42 m2_600_n1100# m3_600_n1100# 228.48fF
+C43 D m3_n2700_n1800# 228.54fF
+C44 L m2_600_n1100# 228.55fF
+C45 B m2_n2700_1000# 228.55fF
+C46 vss m3_n2700_n2500# 228.59fF
+C47 a_n527_n567# L 2.79fF
+C48 M m2_600_n400# 228.55fF
+C49 vdd a_n1166_440# 2.47fF
+C50 m2_n2700_300# m3_n2700_300# 228.48fF
+C51 vss J 59.35fF
+C52 m2_n2700_1700# m3_n2700_1700# 228.48fF
+C53 vdd m3_600_1700# 228.59fF
+C54 H m3_600_1000# 228.54fF
+C55 K m2_n2700_n400# 228.55fF
+C56 C m3_n2700_n1100# 228.54fF
+C57 m2_n2700_n2500# m3_n2700_n2500# 228.48fF
+C58 m2_n2700_n1100# m3_n2700_n1100# 228.48fF
+C59 vss a_n1166_n567# 11.54fF
+C60 vdd a_n488_n671# 2.47fF
+C61 D m2_n2700_n1800# 228.55fF
+C62 G m3_600_300# 228.54fF
+C63 F m3_600_n1800# 228.54fF
+C64 vdd a_n488_435# 2.47fF
+C65 vss K 59.35fF
+C66 vdd a_n1166_n660# 2.47fF
+C67 m1_n2700_n2500# 0 209.58fF ; FLOATING
+C68 m1_600_1700# 0 209.58fF ; FLOATING
+C69 m1_n2700_1700# 0 209.58fF ; FLOATING
+C70 L 0 249.11fF
+C71 M 0 241.15fF
+C72 K 0 241.05fF
+C73 J 0 248.96fF
+C74 H 0 247.33fF
+C75 w_426_n2184# 0 6.19fF ; FLOATING
+C76 w_n1914_n2164# 0 14.12fF ; FLOATING
+C77 w_426_n1564# 0 2.52fF ; FLOATING
+C78 w_426_n1484# 0 6.19fF ; FLOATING
+C79 w_n1914_n1484# 0 6.19fF ; FLOATING
+C80 w_426_n864# 0 2.52fF ; FLOATING
+C81 w_n1914_n864# 0 2.52fF ; FLOATING
+C82 w_426_n784# 0 6.19fF ; FLOATING
+C83 w_n1914_n784# 0 6.19fF ; FLOATING
+C84 w_426_n164# 0 2.52fF ; FLOATING
+C85 w_n1914_n164# 0 2.52fF ; FLOATING
+C86 w_426_n84# 0 6.19fF ; FLOATING
+C87 w_n1914_n84# 0 6.19fF ; FLOATING
+C88 w_426_536# 0 2.52fF ; FLOATING
+C89 w_426_616# 0 6.19fF ; FLOATING
+C90 w_n1914_536# 0 2.52fF ; FLOATING
+C91 vss 0 125.40fF
+C92 w_n1914_616# 0 6.19fF ; FLOATING
+C93 w_426_1236# 0 2.52fF ; FLOATING
+C94 w_n1914_1236# 0 2.52fF ; FLOATING
+C95 w_n1914_1316# 0 6.19fF ; FLOATING
+C96 w_426_1916# 0 8.84fF ; FLOATING
+C97 w_n1914_1936# 0 2.52fF ; FLOATING
+C98 vdd 0 515.39fF
+
+
+
+
+Rvss vss 0 1u ; laczy vss do masy
+Rc C A 1u ; laczy zrodla napieciowe A i B do reszty wyprowadzen ukladu
+Rd D B 1u
+Re E A 1u
+Rf F B 1u
+Rg G A 1u
+Rh H B 1u
+Cload_J J 0 25p
+Cload_K K 0 25p
+Cload_L L 0 25p
+Cload_M M 0 25p
+
+.param VDD=1.8V
+.param Bin=1.8V
+
+;.step param temp list -30 27 120
+;.step param VDD list 1.72 1.8 1.98
+
+
+Vdd vdd 0 {VDD}
+Vb B 0 {Bin}
+
+.param freq=30MEG
+.param Tperiod=1/{freq}
+.param Ton=0.5*{Tperiod}
+
+Ra A ra 50; rezystancja szeregowa zrodla
+VaCLOCK ra 0 PULSE(0 1.8 0 .1n .1n {Ton} {Tperiod}) ; przebieg prostokatny
+; do badania do zbadania przebiegów wyjsciowych oraz maksymalnej czestotliwosci ukladu
+;VaSIN ra 0 SINE(0.9V 0.9V {freq} 0 0 -90) ; przebieg sinusoidalny
+; do zaobserwowania oraz wykreslenia histerezy
+
+.tran 0 200n 0 100p
+.op ;
+.end
