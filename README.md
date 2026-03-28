@@ -3,10 +3,10 @@ Copy of a CD4093B integrated circuit (4 2-Input NAND Schmitt Triggers) made in T
 
 Detailed presentation and simulation results are in the pdf file in folder docs.
 
-## Images
-Functional diagram
+# Images
+## Functional diagram
 ![Functional diagram](img/functional_diagram.png)
-Full chip layout
+## Full chip layout
 ![Layout](img/layout.png)
-Single Gate layout
-![nand_schmitt](img/nand_schmitt)
+## Single Gate layout
+![nand_schmitt](img/nand_schmitt.png)
